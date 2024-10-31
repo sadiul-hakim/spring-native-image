@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SpringServer
+  threads:
+    virtual:
+      enabled: true
+server:
+  port: 9090
+  tomcat:
+    max-connections: 200000
